@@ -29,7 +29,10 @@ Minimum 1 day. Maximum 90 days unless changed from the repository settings page.
     # If true, hidden files will be included in the artifact. If false, hidden files will be excluded from the artifact.
 
     include-hidden-files: # optional, default is false
+
     # If true, the artifact will be archived (zipped) before uploading. If false, the artifact will be uploaded as-is without archiving. When `archive` is `false`, only a single file can be uploaded. The name of the file will be used as the artifact name (ignoring the `name` parameter).
 
     archive: # optional, default is true
+
+    [![.github/workflows/_config.yml](https://github.com/Occipital-Creation/Jurisprudence-NewCity-/actions/workflows/_config.yml/badge.svg?event=check_suite)](https://github.com/Occipital-Creation/Jurisprudence-NewCity-/actions/workflows/_config.yml)
           
