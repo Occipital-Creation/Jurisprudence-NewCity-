@@ -31,6 +31,67 @@ Minimum 1 day. Maximum 90 days unless changed from the repository settings page.
     include-hidden-files: # optional, default is false
 
     # If true, the artifact will be archived (zipped) before uploading. If false, the artifact will be uploaded as-is without archiving. When `archive` is `false`, only a single file can be uploaded. The name of the file will be used as the artifact name (ignoring the `name` parameter).
+source: dir
+destination: dir
+safe: build
+file.fnmatch
+exclude: ["readme.md", "***readme.md] 
+jekyll new: .saasc-cache/
+jekyll new: .jekyll-cache/
+jekyll new: gemfiles
+jekyll new: gemfile.lock
+jekyll new: node_modules
+jekyll new: vendor/bundle/
+jekyll new: vendor/cache/
+jekyll new: vendor/gems/
+jekyll new: vendor/ruby/
+jekyll new: .htaccess
+include: [DIR,FILES...]
+keep_files: [DIR,FILE,...]
+timezone: TIMEZONE
+encoding: ENCODING
+---
+layout: _posts
+title: :Anthology jurisprudence
+---
+layout: _layout
+null
+none
+none
+default _config
+_config.yml
+defaults:
+-
+scope:
+path:
+values:
+layout: "default"
+values
+scope 
+type
+scope
+defaults:
+-
+scope:
+path:
+types:
+values:
+posts.
+pages,posts,drafts,type
+path,values/pair
+defaults:
+-
+scope:
+path: ""
+type: "pages"
+values:
+layout: "mysite"
+-
+scope:
+path:
+type:
+values:
+
 
     archive: # optional, default is true
 
