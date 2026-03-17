@@ -1,0 +1,13 @@
+Glob patterns in Front Matter defaultsPermalink
+It is also possible to use glob patterns (currently limited to patterns that contain *) when matching defaults. For example, it is possible to set specific layout for each special-page.html in any subfolder of section folder.3.7.0
+
+collections:
+  my_collection:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: "section/*/special-page.html"
+    values:
+      layout: "specific-layout"
