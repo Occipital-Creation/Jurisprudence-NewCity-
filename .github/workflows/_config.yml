@@ -46,13 +46,15 @@ scope
 defaults:
 -
 scope:
-path:
+path:_posts
 types:
 values:
 posts.
 pages,posts,drafts,type
 path,values/pair
 defaults:
+
+
 -
 scope:
 path: ""
